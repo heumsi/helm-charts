@@ -1912,6 +1912,10 @@ configs:
       url: https://github.com/heumsi/helm-charts
       name: helm-charts
       type: git
+    private-argocd-apps:
+      url: https://github.com/heumsi/argocd-apps
+      name: argocd-apps
+      type: git
 
   # -- Annotations to be added to `configs.repositories` Secret
   repositoriesAnnotations: {}
