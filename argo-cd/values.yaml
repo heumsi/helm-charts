@@ -1897,10 +1897,10 @@ configs:
     #   type: helm
     #   password: my-password
     #   username: my-username
-    private-helm-charts:
-      url: https://github.com/heumsi/helm-charts
-      name: helm-charts
-      type: git
+    # private-helm-charts:
+    #   url: https://github.com/heumsi/helm-charts
+    #   name: helm-charts
+    #   type: git
     private-argocd-apps:
       url: https://github.com/heumsi/argocd-apps
       name: argocd-apps
